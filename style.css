@@ -1,4 +1,228 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body
+{
     margin: 0px;
-    padding:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 1129px;
+    
 }
+body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 7000ms;
+  }
+
+@media screen and (max-width: 985px)
+{
+    #ButtonForm{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 27px;
+    padding: 4px;
+    }
+    #But1{
+         width: 100%; 
+        
+    }
+    #But2{
+        /* width: 100%; */
+        margin-top: 12px;
+    }
+}
+@media screen and (max-width: 910px)
+{
+    #section2 {
+        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #section2 div img {
+        /* border: 2px solid red; */
+        width: 463px;
+        height: 461px;
+    }
+    
+element.style {
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#section2div {
+    
+    height: 735px;
+    
+}
+}
+#NavFirstElement li
+{
+    margin:0px 12px 
+}
+#NavFirstElement button{
+    width: 217px;
+    margin-right: 21px;
+    
+    outline: none;
+}
+.section2div
+{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+}
+#section2{
+    display:flex;
+}
+#section2>div{
+    width: 50%;
+    height: 400px;
+    
+    /* border: 2px solid black; */
+    margin: 23px 12px;
+    padding: 0px;
+}
+#section2 div img{
+    
+    /* border: 2px solid red; */
+    
+    width: 472px;
+    height: 437px;
+}
+.ImgCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HeadingOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeadingOne h1{
+    font-family: 'Poppins', sans-serif;
+    color: #3d4b77;
+    padding: 0px 70px;
+}
+.HeadingOne h5{
+    margin-left: 57px;
+    margin-top: 29px;
+}
+.red{
+    color: red;
+}
+#ButtonForm{
+    
+    /* border: 2px solid red; */
+    display: flex;
+    width: 75%;
+    margin-top: 27px;
+    padding: 4px;
+}
+/* .ButtonForm>button{
+     
+} */
+#But1{
+    width: 36%;
+}
+#But2{
+    width: 23%;
+    margin-left: 6px;
+}
+.section2{
+    /* border: 2px solid black; */
+    height: 400px;
+}
+#section2Heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    height: 142px;
+    font-family: 'Poppins', sans-serif;
+    color: #3d4b77;
+}
+#GiridiBlock
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2fr,1fr);
+    gap: 4px;
+}
+.Box
+{
+    height: 120px;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    padding: 4px;
+    display: flex;
+
+}
+
+.Box img{
+    margin-right: 18px;
+    height: 80px;
+    width: 80px;
+}
+
+.Discription>h5{
+    font-family: 'Poppins', sans-serif;
+    color: #3d4b77;
+}
+.Foot{
+    margin-top: 23px;
+    background-color: #f8f9fa;
+    height: 159px;
+    display: flex;
+    align-items: center;
+}
+.Foot img{
+    height: 33px;
+    margin: 12px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+  }
+  #myBtn img{
+    width: 39px;
+    height: 28px;
+    
+
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  #footBtn1{
+      /* margin-left: 200px; */
+      /* margin-right: 12px; */
+  }
+  .footDiv{
+    margin-right: 97px;
+  }
